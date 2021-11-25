@@ -3,7 +3,9 @@ import java.awt.event.*;
 import javax.swing.*;
 
 /**
- * A simple Java class!
+ * The program is calculate the circumference and the radius which is not given
+ * @author Ahmet Faruk Ulutaş
+ * version 03/04/2020
  */
 public class Sec_01_OnlinePopQuiz01
 {
@@ -47,19 +49,6 @@ public class Sec_01_OnlinePopQuiz01
       
       textForRadius.addKeyListener( new DirectionListener() );
       textForCircumference.addKeyListener( new DirectionListener() );
-      
-      Font font = frame.getFont();
-
-        String currentTitle = frame.getTitle().trim();
-        FontMetrics fm = frame.getFontMetrics(font);
-        int frameWidth = frame.getWidth();
-        int titleWidth = fm.stringWidth(currentTitle);
-        int spaceWidth = fm.stringWidth(" ");
-        int centerPos = (frameWidth / 2) - (titleWidth / 2);
-        int spaceCount = centerPos / spaceWidth;
-        String pad = "";
-        pad = String.format("%" + (spaceCount - 14) + "s", pad);
-        frame.setTitle(pad + currentTitle);
    }
    
    private class DirectionListener extends KeyAdapter
