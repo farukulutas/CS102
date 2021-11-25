@@ -1,0 +1,25 @@
+CS102 - Sec01
+Ahmet Faruk Ulutaş - 21803717
+15/02/2020
+3 hours
+working
+
+I put together the missing pieces in my class and i complied. Then, I got 23 errors.
+Some of them related with the missing brackets, i added few brackets too and fixed.
+Some of them were caused by importing the initial import method when putting the codes together, the problem was resolved after importing the io and scanner packages.
+Some errors were caused by not making the initialization section properly, it was corrected by writing in appropriate format.
+Some errors were caused by different groups giving variable names differently. For example, like no, num and number...
+One of the errors was related to the StringBuffer's not using the contains method, it was solved using indexOf instead of contains.
+At the end of the tryThis method there was not any return statement, fixed by adding proper return statement.
+maxAllowedIncorrectTries is defined in properties as a constans and in the constructor as a variable which is problematic and i fixed it by altering the properties' one from constant to a variable.
+Compiler gave this error. "Error: The type java.lang.CharSequence cannot be resolved. It is indirectly referenced from required .class files" I understood that it was due to the version of JDK or the java source version of the project. I could not solve the problem then I uploaded my java code to the online java compiler which is on the Internet. Then I executed it. It worked properly.
+However, the output was like "The word contains the letter Hangman@36d64342 1 times.". The Hangman@36d64342 is problematic and i altered the out.print part with the input which is a letter itself.
+After doing all of these things, I checked all the possibilities, the code was working correctly, but when I entered a letter that was not contained in the secretWord, that letter did not appear in the list and I could enter the letter many times, causing the player to lose. Then i find the usedLetters and i saw it is used in if statement but not in else statement. I fixed it by adding it into else statement before the return type because after return type the statement become unreachable.
+After a few attempts, I solved the version problem by installing the beta version of drjava, I remembered that it was said to not update in the CS101 class, so I did not update it before.
+Moreover, there were also various errors in the method where the hidden word was taken from a particular txt file.
+Also, reading the words from the txt file was incorrect and I couldn't fix it because we have not learned it yet.
+Before finishing the Game, i draw a real hung man with system.out.print method which is mentioned at the and of the description of the Game.
+
+The mistakes were caused by the fact that the design was not sufficiently detailed and that even the part that was made was not implemented correctly. For example, even one variable was given three different names. (no, num, number ...) If users are in communication while coding or can follow each other's codes momentarily, it helps to reduce these errors and obtain more efficient results.
+
+The compiling, error searching, understanding why it happened and fixing process took almost 5.5 hours.

@@ -1,0 +1,33 @@
+/**
+ * A simple Shape class!
+ * @author Ahmet Faruk Ulutaþ
+ * @date 08/03/2020
+ */
+public abstract class Shape implements Locatable
+{
+   // properties
+   int sides, width, height, x, y;
+   
+   // constructors
+   public Shape() {
+      x = 0;
+      y = 0;
+   }
+   
+   // methods
+   public abstract double getArea();
+   
+   public int getX() {
+      return x;
+   }
+   
+   public int getY() {
+      return y;
+   }
+   
+   public void setLocation( int x, int y) {
+      this.x = x;
+      this.y = y;
+   }
+   
+}

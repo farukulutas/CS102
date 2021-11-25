@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20140826-r5761">
+  <project autorefresh="false" root="classes/" work="">
+    <createjar file=""/>
+    <source/>
+    <included>
+      <file active="true" name="C:/Users/Faruk/Desktop/CS102/LABS/lab02/Menu.java" package="" timestamp="01-Mar-2020 22:09:35">
+        <select from="2389" to="2389"/>
+        <scroll column="454" row="0"/>
+      </file>
+      <file name="C:/Users/Faruk/Desktop/CS102/LABS/lab02/Lab02.java" package="" timestamp="01-Mar-2020 10:14:19">
+        <select from="2389" to="2389"/>
+        <scroll column="454" row="0"/>
+      </file>
+      <file name="C:/Users/Faruk/Desktop/CS102/LABS/lab02/HTMLFilteredReader.java" package="" timestamp="01-Mar-2020 20:23:10">
+        <select from="2389" to="2389"/>
+        <scroll column="454" row="0"/>
+      </file>
+      <file name="C:/Users/Faruk/Desktop/CS102/LABS/lab02/MySimpleURLReader.java" package="" timestamp="01-Mar-2020 20:23:53">
+        <select from="2389" to="2389"/>
+        <scroll column="454" row="0"/>
+      </file>
+      <file name="C:/Users/Faruk/Desktop/CS102/LABS/lab02/TestMySimpleURLReader.java" package="" timestamp="01-Mar-2020 20:23:53">
+        <select from="2389" to="2389"/>
+        <scroll column="454" row="0"/>
+      </file>
+      <file name="C:/Users/Faruk/Desktop/CS102/LABS/lab02/TestHTMLFilteredReader.java" package="" timestamp="01-Mar-2020 20:23:53">
+        <select from="2389" to="2389"/>
+        <scroll column="454" row="0"/>
+      </file>
+      <file name="C:/Users/Faruk/Desktop/CS102/LABS/lab02/XHTMLFilteredReader.java" package="" timestamp="01-Mar-2020 21:15:13">
+        <select from="2389" to="2389"/>
+        <scroll column="454" row="0"/>
+      </file>
+      <file name="C:/Users/Faruk/Desktop/CS102/LABS/lab02/TestXHTMLFilteredReader.java" package="" timestamp="01-Mar-2020 21:17:30">
+        <select from="2389" to="2389"/>
+        <scroll column="454" row="0"/>
+      </file>
+    </included>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="true" name="C:/Users/Faruk/Desktop/CS102/LABS/cs1.jar"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

@@ -1,0 +1,54 @@
+/**
+ * This program will read the contents of the url(with html codes) and print its contents(without html codes)
+ * and the number of lines it contains, on the console. 
+ * @auhtor Ahmet Faruk Ulutaþ
+ * @date 01/03/2020
+ */
+public class HTMLFilteredReader extends MySimpleURLReader {
+   
+   // properties
+   
+   // constructors
+   public HTMLFilteredReader( String url) {
+      
+      super( url);
+   }
+   
+   //  Its getPageContents() method should return only the text, without the html.
+   // A new method, getUnfilteredPageContents() can be called to return the original page complete with html codes. 
+   // Assume that anything between "<" and ">" is html code and should be omitted from the filtered output. Try to solve this problem using just charAt(i) and String concatenation.
+   
+   // methods
+   public String getPageContents() {
+      
+      String content = super.getPageContents();
+      int tempStart, tempEnd;
+      String tempContent, cont;
+      tempContent = "";
+      tempStart = 0;
+      tempEnd = 0;
+      for ( int i = 0; i < content.length(); i++) {
+         
+         if ( content.charAt(i) == '>' ) {
+            
+            tempStart = i; // 0
+            
+            for ( int a = 0; a < content.length(); a++ ) {
+               
+               if ( content.charAt(a) == '<' ) {
+                  
+                  tempEnd = a; // 45
+               }
+            }
+         }
+         for ( int b = tempStart; b < tempEnd; b++) {
+            cont = "";
+            cont = cont + content.charAt( b);
+            tempContent = tempContent.concat( cont);
+         }
+         
+      }
+      return tempContent;
+   }
+   
+}

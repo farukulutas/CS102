@@ -1,0 +1,40 @@
+import java.util.Iterator; 
+
+/**
+ * A simple Iterator interface
+ * @author Ahmet Faruk Ulutaþ
+ * @date 09/03/2020
+ */
+public class IntBagIterator implements IntIterator {
+   
+   public IntBagIterator( IntBag bag ) {
+    aBag = new IntBag();
+    index = 0;
+   }
+   
+   IntBag aBag = new IntBag();
+   int index = 0;
+   
+   public int nextInt() {
+      int number;
+      number = aBag.get( index);
+      index++;
+      return number;
+   }
+   
+   public Integer next() {
+      Integer number2 = new Integer( aBag.get( index) );
+      index++;
+      return number2;
+   }
+   
+   public boolean hasNext() {
+      if( aBag.size() < index ) {
+         return false;
+      }
+      else {
+       return true;  
+      }
+   }
+   
+}

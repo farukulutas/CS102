@@ -1,0 +1,118 @@
+import java.util.Scanner;
+
+/**
+ * A simple Square class!
+ * @author Ahmet Faruk Ulutaþ
+ * @date 08/03/2020
+ */
+public class ShapeTester
+{
+   public static void main( String[] args) {
+      Scanner scan = new Scanner( System.in);
+      
+      // constants
+      
+      // variables
+      boolean isEnd, isCreated;
+      int options, shapeSelection, radius, width, height, side, x, y;
+      ShapeContainer shapeContain;
+      
+      // program code
+      isEnd = false;
+      isCreated = false;
+      shapeContain = null;
+      
+      do {
+         System.out.println( " Welcome to the Shape Tester! \n"
+                               + " 1 - create an empty set of shapes (ShapeContainer) \n"
+                               + " 2 - add a shape \n"
+                               + " 3 - compute & print out the total surface area of the entire set of shapes \n"
+                               + " 4 - print out information about all of the shapes \n"
+                               + " 5 - find the first Shape that contains a given x, y \n"
+                               + " 6 - removes all selected shapes from the set of shapes \n"
+                               + " 7 - Quit \n" );
+         
+         options = scan.nextInt();
+         
+         if ( options != 1 && isCreated ) {
+            System.out.println( "To be able to use other options, you should create a set initially." );  
+         }
+         else {
+            if ( options == 1 ) {
+               shapeContain = new ShapeContainer();
+               System.out.println(" New shape container have been created! \n" );
+            }
+            
+            else if ( options == 2 ) {
+               System.out.println( "Please, select a shape; \n"
+                                     + "1 - Circle \n"
+                                     + "2 - Rectangle \n"
+                                     + "3 - Square \n" );
+               
+               shapeSelection = scan.nextInt();
+               
+               if ( shapeSelection == 1 ) {
+                  System.out.println( "Please, enter the radius." );
+                  radius = scan.nextInt();
+                  
+                  Circle circle = new Circle( radius);
+                  shapeContain.add( circle);
+               }
+               
+               else if ( shapeSelection == 2 ) {
+                  System.out.println( "Please, enter the width and height." );
+                  width = scan.nextInt();
+                  height = scan.nextInt();
+                  
+                  Rectangle rectangle = new Rectangle( width, height);
+                  
+                  shapeContain.add( rectangle);
+               }
+               
+               else if ( shapeSelection == 3 ) {
+                  System.out.println( "Please, enter one side." );
+                  side = scan.nextInt();
+                  
+                  Square square = new Square( side);
+                  shapeContain.add( square);
+               }
+               
+               else {
+                  System.out.println(" Invalid options has entered. Please, try again. ");  
+               }
+            }
+            
+            else if ( options == 3 ) {
+               System.out.println("The total surface area is: " + shapeContain.getArea() + '\n');
+            }
+            
+            else if ( options == 4 ) {
+               System.out.println( shapeContain);  
+            }
+            
+//            else if ( options == 5 ) {
+//               System.out.println("Please enter x and y respectively.");
+//               x = scan.nextInt();
+//               y = scan.nextInt();
+//               
+//               shapeContain.findFirstContains(x, y);  
+//            }
+            
+//            else if ( options == 6 ) {
+//               shapeContain.removeAllSelected();
+//            }
+            
+            else if ( options == 7 ) {
+               isEnd = true;
+            }
+            
+            else {
+               System.out.println( " Invalid options has entered. Please, try again. ");
+            }
+         }
+      } while ( !isEnd );
+      
+      System.out.println( "Good Bye! " );
+   }
+   
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20140826-r5761">
+  <project autorefresh="false" build="src/" root="classes/" work="">
+    <createjar file=""/>
+    <source/>
+    <included>
+      <file active="true" name="C:/Users/Faruk/Desktop/Sec01_HW01_Ulutas_Faruk/Hangman.java" package="" timestamp="16-Feb-2020 00:22:12">
+        <select from="6980" to="6980"/>
+        <scroll column="1625" row="0"/>
+      </file>
+      <file name="C:/Users/Faruk/Desktop/Sec01_HW01_Ulutas_Faruk/HangManGame.java" package="" timestamp="16-Feb-2020 00:20:47">
+        <select from="6980" to="6980"/>
+        <scroll column="1625" row="0"/>
+      </file>
+    </included>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
