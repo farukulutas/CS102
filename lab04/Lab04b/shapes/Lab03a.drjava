@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20140826-r5761">
+  <project autorefresh="false" build="classes/" main="ShapeTester" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="ShapeContainer.java" package="shapes" timestamp="05-Apr-2020 11:18:44">
+        <select from="496" to="496"/>
+        <scroll column="395" row="0"/>
+      </file>
+      <file name="Circle.java" package="shapes" timestamp="04-Apr-2020 10:34:24">
+        <select from="496" to="496"/>
+        <scroll column="395" row="0"/>
+      </file>
+      <file name="Locatable.java" package="shapes" timestamp="04-Apr-2020 10:34:24">
+        <select from="496" to="496"/>
+        <scroll column="395" row="0"/>
+      </file>
+      <file name="Selectable.java" package="shapes" timestamp="04-Apr-2020 10:34:24">
+        <select from="496" to="496"/>
+        <scroll column="395" row="0"/>
+      </file>
+      <file name="Rectangle.java" package="shapes" timestamp="04-Apr-2020 13:49:36">
+        <select from="496" to="496"/>
+        <scroll column="395" row="0"/>
+      </file>
+      <file name="Shape.java" package="shapes" timestamp="04-Apr-2020 13:50:53">
+        <select from="496" to="496"/>
+        <scroll column="395" row="0"/>
+      </file>
+      <file name="Drawable.java" package="shapes" timestamp="04-Apr-2020 13:54:20">
+        <select from="496" to="496"/>
+        <scroll column="395" row="0"/>
+      </file>
+      <file name="ShapeTester.java" package="shapes" timestamp="04-Apr-2020 13:54:20">
+        <select from="496" to="496"/>
+        <scroll column="395" row="0"/>
+      </file>
+      <file name="Square.java" package="shapes" timestamp="04-Apr-2020 13:54:49">
+        <select from="496" to="496"/>
+        <scroll column="395" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

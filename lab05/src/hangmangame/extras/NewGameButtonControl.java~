@@ -1,0 +1,16 @@
+public class NewGameButtonControl extends JButton {
+   private Hangman hangman;
+   
+   public NewGameButtonContrl( Hangman hangman) {
+    super( "New Game");
+    this.hangman = hangman;
+    this.addActionListener( this);
+    this.setEnabled( false);
+   }
+   
+   public void ActionPerformed( ActionEvent event) {
+    hangman.initNewGame();
+    this.setEnabled( false);
+   }
+   
+}
