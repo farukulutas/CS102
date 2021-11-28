@@ -26,4 +26,4 @@ My work on a model going up, down, left and right when the keys are pressed.
 ## Popquiz Contents:
 
 - `popquiz`: Circle Computer. Calculate radius and circumference given in textfield.
-    - `Topics`: GUis
+    - `Topics`: GUIs
