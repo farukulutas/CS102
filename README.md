@@ -25,5 +25,5 @@ My work on a model going up, down, left and right when the keys are pressed.
     
 ## Popquiz Contents:
 
-- `Homework 4`: Implementing a strange calculator class that, in addition to performing algebraic operations, converts between infix and prefix algebraic expressions.
-    - `Topics`: Stacks
+- `popquiz`: Circle Computer. Calculate radius and circumference given in textfield.
+    - `Topics`: GUis
